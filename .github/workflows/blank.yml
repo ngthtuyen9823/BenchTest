@@ -1,0 +1,281 @@
+
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+
+  build-1:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-2:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-3:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-4:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-5:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-6:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-7:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-8:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-9:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-10:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-11:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-12:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-13:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-14:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-15:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-16:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-17:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-18:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-19:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-20:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-21:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-22:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-23:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-24:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-25:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-26:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-27:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-28:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-29:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
+
+  build-30:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=30 ngthvan1612/bench-test:v5
